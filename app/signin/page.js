@@ -1,10 +1,10 @@
-"use client"
+'use client'
 import React, { useRef, useState } from 'react'
 import { createUserWithEmailAndPassword } from 'firebase/auth'
 import { auth } from '@/app/firebase';
 import Link from 'next/link';
 
-Link
+
 const Signup = () => {
     const emailRef = useRef();
     const passwordRef = useRef();
