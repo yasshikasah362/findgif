@@ -34,14 +34,14 @@ const page = () => {
 
         <div style={{height:'12%',width:'100%',backgroundColor:'black',display:'flex',alignItems:'center',justifyContent:'center',gap:'50px'}}>
                 <img style={{height:'100%',width:'15%'}} src="https://images.squarespace-cdn.com/content/v1/566c552269a91af72b314d9c/1487647150282-3SCUC6X1TXR9QQQ3FZ6O/image-asset.jpeg?format=1500w" alt="" />
-                <Link href='/signin' style={{textDecoration:'none',color:'white',fontSize:'1.5rem'}}>Create New Account</Link>
-                <Link href='/login' style={{textDecoration:'none',color:'white',fontSize:'1.5rem'}}>Login</Link>
+                <Link href='/' style={{textDecoration:'none',color:'white',fontSize:'1.5rem'}}>Home  </Link>
+                <Link href='/list' style={{textDecoration:'none',color:'white',fontSize:'1.5rem'}}>Trending Gifs</Link>
+                <Link href='/search' style={{textDecoration:'none',color:'white',fontSize:'1.5rem'}}>Search Gif's 🔎  </Link>
+
         </div>
     
 
-        <h1 style={{color:'white',fontSize:'3rem',marginLeft:'400px'}}>GIPHY</h1>
-        <p style={{color:'white',fontSize:'1.5rem',marginLeft:'400px'}}>The internet’s source for visuals. <br />
-Powered by creators everywhere.</p>
+        
           
     </div>
 
