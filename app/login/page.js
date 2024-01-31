@@ -1,8 +1,10 @@
-"use client"
+'use client'
 import { useRouter } from 'next/router';
 import React, { useRef } from 'react';
 import { auth } from '@/app/firebase';
 import { signInWithEmailAndPassword } from 'firebase/auth';
+
+
 
 const LoginUp = () => {
     const router = useRouter();
