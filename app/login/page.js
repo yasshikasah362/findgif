@@ -51,7 +51,10 @@ const LoginUp = () => {
                                     <input type="password" className="form-control" required placeholder="Enter Your Password" ref={lpasswordRef} />
                                 </div>
                                 <button type="submit" className="btn btn-primary btn-block">
-                                    <Link style={{color:'white',textDecoration:'none'}}  href='/list'>LoginUp </Link>
+                                <Link href='/list'>
+        <a style={{ color: 'white', textDecoration: 'none' }}>LoginUp</a>
+    </Link>
+                                    {/* <Link style={{color:'white',textDecoration:'none'}}  href='/list'>LoginUp </Link> */}
                                     </button>
                             </form>
                         </div>
